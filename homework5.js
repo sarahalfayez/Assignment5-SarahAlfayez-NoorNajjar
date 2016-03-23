@@ -1,7 +1,7 @@
 var express = require("express"),
     http = require("http"),
     app;
-var bodyParser = require('body-parser');
+var bodyParser = require("body-parser");
 var stats = { "wins": 0, "losses": 0};
 
 // Create our Express-powered HTTP server
